@@ -1,126 +1,107 @@
 {
-  "name": "Chetan",
+  "name": "KB",
   "headerTaglineOne": "Hello 👋",
-  "headerTaglineTwo": "I'm Chetan Verma - curious",
-  "headerTaglineThree": "designer and devloper",
-  "headerTaglineFour": " based in New Delhi, India.",
-  "showBlog": true,
+  "headerTaglineTwo": "I'm Khaled Bellal",
+  "headerTaglineThree": "Front-End Developer",
+  "headerTaglineFour": " based in Dubai, UAE.",
+  "showBlog": false,
   "darkMode": true,
-  "socials": [
-    {
-      "id": "1",
-      "title": "Github",
-      "link": "https://github.com/chetanverma16"
-    },
-    {
-      "id": "2",
-      "title": "LinkedIn",
-      "link": "https://www.linkedin.com/in/chetanverma7/"
-    },
-    {
-      "id": "3",
-      "title": "Twitter",
-      "link": "https://twitter.com/realchetanverma"
-    },
-    { "id": "4", "title": "Blog", "link": "https://blog.chetanverma.com/" },
-    { "id": "5", "title": "Email", "link": "mailto:hello@chetanverma.com" }
-  ],
   "projects": [
     {
       "id": "1",
-      "title": "Project One Test",
-      "description": "Web Design",
-      "imageSrc": "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
+      "title": "Cyborg",
+      "description": "Website",
+      "imageSrc": "/images/project/cyborgGames.png",
+      "url": "https://vermillion-tartufo-ed3a42.netlify.app",
+      "githubUrl": "https://github.com/khaled-bellal/cyborg"
+
     },
     {
       "id": "2",
-      "title": "Project Two",
+      "title": "LEADERSHIP EVENT",
       "description": "Web Development",
-      "imageSrc": "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
-    },
-    {
-      "id": "3",
-      "title": "Project Three",
-      "description": "Design",
-      "imageSrc": "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
-    },
-    {
-      "id": "4",
-      "title": "Project Four",
-      "description": "Marketing",
-      "imageSrc": "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
-    },
-    {
-      "id": "5",
-      "title": "Project Five",
-      "description": "Development",
-      "imageSrc": "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
-    },
-    {
-      "id": "6",
-      "title": "Project Six",
-      "description": "Design & Development",
-      "imageSrc": "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
+      "imageSrc": "/images/project/leadershipEvent.png",
+      "url": "https://lucent-kangaroo-fb3e3e.netlify.app",
+      "githubUrl": "https://github.com/khaled-bellal/leadership_event"
+
     }
   ],
   "services": [
     {
       "id": "1",
-      "title": "Art Direction",
-      "description": "We help with the creation and development of online advertising ideas, with particular focus on their visual appearance."
+      "title": "Web Development",
+      "description": "I specialize in developing modern, responsive websites using the latest web technologies such as HTML5, CSS3, and JavaScript. Whether you need a simple website or a complex web application, I can help you bring your vision to life."
     },
     {
       "id": "2",
-      "title": "Branding",
-      "description": "We design key brand elements such as the logo, color scheme, typography, and other design components that makes your brand stand out from competitors."
+      "title": "User Interface Design",
+      "description": "I have a keen eye for design and enjoy creating visually stunning user interfaces that are both intuitive and easy to use. From wireframes to final designs, I can help you create a user interface that enhances your brand and meets the needs of your users."
     },
     {
       "id": "3",
-      "title": "Web Design",
-      "description": "We build and optimize your online presence.  Website is the digital entry point into your business and a powerful revenue channel."
+      "title": "Front-End Development",
+      "description": "With expertise in various front-end framework like React, I can build highly interactive and responsive websites and web applications. I work closely with back-end developers to ensure that the client-side of your project integrates seamlessly with the back-end services."
     },
     {
       "id": "4",
       "title": "3D Design",
       "description": "We combine creative design and technical skills to build striking 3D visualisations that bring your project to life."
+    },
+    {
+      "id": "5",
+      "title": "Responsive Web Design",
+      "description": "Specialize in creating responsive websites that adapt seamlessly to different screen sizes and devices. This service ensures that websites look and function well on desktops, tablets, and smartphones."
+    },
+    {
+      "id": "6",
+      "title": "Website Maintenance and Support",
+      "description": "Provide ongoing maintenance and support for websites, including updating content, fixing bugs, and ensuring security. Offer service packages that cater to clients' needs for long-term suppor"
+    },
+    {
+      "id": "7",
+      "title": "Code Reviews and Quality Assurance",
+      "description": "Offer code review services to clients who want an expert opinion on the quality and efficiency of their front-end code. Provide feedback, suggest improvements, and ensure adherence to coding standards and best practices."
+    },
+    {
+      "id": "8",
+      "title": "Consultation and Expert Advice",
+      "description": "Offer consultation services to clients who require guidance on front-end development best practices, UI/UX design, responsive design, or other related areas."
     }
   ],
-  "aboutpara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  "aboutpara": "I am a highly skilled and experienced Front End Developer with over 3 years of experience in creating user-friendly and responsive websites. I am proficient in HTML, CSS, JavaScript, and various front-end frameworks such as ReactJS and AngularJS. With a deep understanding of web development best practices, I am able to create websites that are not only aesthetically pleasing but also optimized for search engines and accessibility. I have a proven track record of successfully delivering projects on time and within budget, collaborating effectively with team members, and using agile methodologies to achieve project goals. As a Front End Developer, I am passionate about staying up-to-date with the latest technologies and trends in the industry, and I am always seeking new challenges to expand my skills and knowledge.",
   "resume": {
-    "tagline": "👋  I'm a software engineer, product designer, and maker.",
-    "description": "I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.",
+    "tagline": "👋  I'm a front-end developer.",
+    "description": "I have delivered world-class user experiences to much of people. Well-versed with React, Javascript, and most of the Web frameworks.",
     "experiences": [
       {
         "id": "1",
-        "dates": "March 2022 - Present",
-        "type": "Full Time",
-        "position": "Frontend Engineer at X",
-        "bullets": [
-          "Worked on the frontend of a React application",
-          "Worked on the frontend of a React application"
-        ]
+        "dates": "Apr 2022 - Dec 2022",
+        "type": "Part time",
+        "position": "Frontend Engineer at Web3 Pros",
+        "bullets": "Worked with the design team to create website layouts and designs, Developed websites using ReactJS framework, Implemented SEO best practices to improve website visibility, Built custom WordPress themes using PHP / HTML / CSS and JavaScript, Used Jira for project management and issue tracking, Conducted code reviews and provided feedback to team members, Maintained and updated existing websites, Collaborated with back-end developers to integrate front-end code with the back-end system."
       },
       {
         "id": "2",
-        "dates": "March 2020 - March 2022",
-        "type": "Full Time",
-        "position": "Frontend Engineer at X",
-        "bullets": ["Worked on the frontend of a React application"]
+        "dates": "Mar 2020 - Jun 2021",
+        "type": "Part time",
+        "position": "React Developer at SupportYourApp",
+        "bullets": "Designed and developed user-friendly websites using HTML, CSS, and JavaScript, Developed responsive layouts using Bootstrap and Materialize frameworks, Utilized jQuery to create dynamic and interactive web pages, Collaborated with the UX team to create wireframes and mockups, Implemented SEO best practices to improve website visibility, Used Git for version control and code collaboration, Communicated with project managers and other team members to ensure timely delivery."
+      },
+      {
+        "id": "3",
+        "dates": "Feb 2019 - Dec 2020",
+        "type": "Freelance",
+        "position": "UI/UX Designer at Upwork",
+        "bullets": "Conducting user research to understand user needs, behaviors, and preferences, Developing wireframes and prototypes to visualize design concepts and test usability,Creating high-fidelity mockups and designs for web and mobile applications, Collaborating with cross-functional teams, including product managers, developers, and marketers, to ensure design consistency and usability, Conducting user testing and incorporating feedback to refine designs and improve the user experience, Staying up-to-date with industry trends and best practices in UI/UX design."
       }
     ],
     "education": {
-      "universityName": "University X",
-      "universityDate": "2016-2020",
-      "universityPara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+      "universityName": "ESE at University of Sciences and Technologies Houari Boumediène",
+      "universityDate": "2016 - 2021",
+      "universityPara": "Object-Oriented Programming (OOP), RCI, x86 Assembly, C++, Real-time Control Systems, Robotics, Visual Studio, Java"
     },
-    "languages": ["Javascript", "HTML5", "CSS", "Python"],
-    "frameworks": ["React", "Typescript", "NodeJs"],
-    "others": ["Figma", "AdobeXD", "AWS"]
+    "languages": ["JavaScript", "HTML5", "CSS3", "Tailwindcss", "Bootstrap 5"],
+    "frameworks": ["React", "Typescript"],
+    "others": ["Figma", "AdobeXD", "Photoshop"]
   }
 }

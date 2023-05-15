@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-undef */
 import { useRef } from "react";
 import Header from "../components/Header";
 import ServiceCard from "../components/ServiceCard";
@@ -10,6 +11,7 @@ import Head from "next/head";
 import Button from "../components/Button";
 import Link from "next/link";
 import Cursor from "../components/Cursor";
+import Image from "next/image";
 
 // Local Data
 import data from "../data/portfolio.json";
@@ -63,40 +65,58 @@ export default function Home() {
           handleWorkScroll={handleWorkScroll}
           handleAboutScroll={handleAboutScroll}
         />
-        <div className="laptop:mt-20 mt-10">
-          <div className="mt-5">
-            <h1
-              ref={textOne}
-              className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-4/5 mob:w-full laptop:w-4/5"
-            >
-              {data.headerTaglineOne}
-            </h1>
-            <h1
-              ref={textTwo}
-              className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
-            >
-              {data.headerTaglineTwo}
-            </h1>
-            <h1
-              ref={textThree}
-              className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
-            >
-              {data.headerTaglineThree}
-            </h1>
-            <h1
-              ref={textFour}
-              className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
-            >
-              {data.headerTaglineFour}
-            </h1>
+        <div className="laptop:mt-42 mt-10">
+          <div className="h-[100%] flex mob:flex-col laptop:flex-row mt-[50px]">
+            <div className=" relative mob:flex laptop:flex mob:justify-center laptop:justify-end laptop:mr-[70px] laptop:mb-[55px]">
+              <img
+                src="/images/my/khaled.jpg"
+                alt="my photo"
+                className="h-[345px] w-[63%] h-fit laptop:w-[28%] object-cover transition-all ease-out duration-300 hover:scale-[1.01] relative bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-px"
+              />
+            </div>
+            <div className="mob:text-center laptop:text-left laptpo:mr-96 laptop:absolute mt-6">
+              <h1
+                ref={textOne}
+                className="text-2xl tablet:text-6xl laptopl:text-6xl p-1 tablet:p-2 text-bold w-4/5 mob:w-full laptop:w-4/5"
+              >
+                {data.headerTaglineOne}
+              </h1>
+              <h1
+                ref={textTwo}
+                className="text-2xl tablet:text-7xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5 font-bold bg-clip-text text-transparent bg-gradient-to-r from-violet-500 to-pink-500"
+              >
+                {data.headerTaglineTwo}
+              </h1>
+              <h1
+                ref={textThree}
+                className="text-2xl tablet:text-7xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5 bg-clip-text text-transparent bg-gradient-to-r from-violet-500 to-pink-500"
+              >
+                {data.headerTaglineThree}
+              </h1>
+              <h1
+                ref={textFour}
+                className="text-2xl tablet:text-6xl laptopl:text-6xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5 !opacity-[0.7]"
+              >
+                {data.headerTaglineFour}
+              </h1>
+            </div>
           </div>
-
-          <Socials className="mt-2 laptop:mt-5" />
+        </div>
+        <Socials className="mt-2 laptop:mr-[70%] laptop:mt-6" />
+        <div className="mt-10 laptop:mt-16 p-2 laptop:p-0" ref={aboutRef}>
+          <h1 className="tablet:m-8 text-3xl font-black mx-6 pr-4 bg-clip-text text-transparent bg-gradient-to-r from-violet-500 to-pink-500">
+            About.
+          </h1>
+          <p className="tablet:m-10 mt-2  p-4 text-xl laptop:text-3xl w-full laptop:w-4/5 rounded-md shadow-md text-justify opacity-70 bg-gradient-to-r from-black via-slate-900 to-slate-[#0d0e137a]">
+            {data.aboutpara}
+          </p>
         </div>
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={workRef}>
-          <h1 className="text-2xl text-bold">Work.</h1>
+          <h1 className="tablet:m-8 text-3xl font-black mx-6 pr-4 bg-clip-text text-transparent bg-gradient-to-r from-violet-500 to-pink-500">
+            Work.
+          </h1>
 
-          <div className="mt-5 laptop:mt-10 grid grid-cols-1 tablet:grid-cols-2 gap-4">
+          <div className="mt-5 laptop:mt-10 mx-6 grid grid-cols-1 tablet:grid-cols-2 gap-4">
             {data.projects.map((project) => (
               <WorkCard
                 key={project.id}
@@ -104,6 +124,7 @@ export default function Home() {
                 name={project.title}
                 description={project.description}
                 onClick={() => window.open(project.url)}
+                githubUrl={project.githubUrl}
               />
             ))}
           </div>
@@ -122,19 +143,13 @@ export default function Home() {
           </div>
         </div>
         {/* This button should not go into production */}
-        {process.env.NODE_ENV === "development" && (
+        {/* {process.env.NODE_ENV === "development" && (
           <div className="fixed bottom-5 right-5">
             <Link href="/edit">
               <Button type="primary">Edit Data</Button>
             </Link>
           </div>
-        )}
-        <div className="mt-10 laptop:mt-40 p-2 laptop:p-0" ref={aboutRef}>
-          <h1 className="tablet:m-10 text-2xl text-bold">About.</h1>
-          <p className="tablet:m-10 mt-2 text-xl laptop:text-3xl w-full laptop:w-3/5">
-            {data.aboutpara}
-          </p>
-        </div>
+        )} */}
         <Footer />
       </div>
     </div>
