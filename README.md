@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ### Features -
 
 - Modern Stack (Next.js + TailwindCSS)
@@ -48,3 +49,7 @@ If you liked my portfolio, don't forget to give it a ⭐.
 Many hours of hard work have gone into this project. Your support will be very appreciated!
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/image/custom_images/orange_image.png)]
+=======
+# portfolio_kb
+- Modern Stack (Next.js + TailwindCSS) - Minimal Design - Easy To Browse - Easy To Customize your details With GUI - Blog Crud (Create, Read, Update, Delete blog with easy to use UI). - Dark Mode
+>>>>>>> 606f7a4c06fedb4fd9460352fad227c5c060712c
