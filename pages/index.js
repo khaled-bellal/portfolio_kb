@@ -107,7 +107,7 @@ export default function Home() {
           <h1 className="tablet:m-8 text-3xl font-black mx-6 pr-4 bg-clip-text text-transparent bg-gradient-to-r from-violet-500 to-pink-500">
             About.
           </h1>
-          <p className="tablet:m-10 mt-2  p-4 text-xl laptop:text-3xl w-full laptop:w-4/5 rounded-md shadow-md text-justify opacity-70 bg-gradient-to-r from-black via-slate-900 to-slate-[#0d0e137a]">
+          <p className="tablet:m-10 mt-2  p-4 text-xl laptop:text-3xl w-full laptop:w-4/5 rounded-md shadow-md text-justify opacity-70 bg-gradient-to-r from-slate-[#0d0e137a] via-slate-900 to-slate-[#0d0e137a]">
             {data.aboutpara}
           </p>
         </div>
