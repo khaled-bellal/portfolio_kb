@@ -107,7 +107,7 @@ export default function Home() {
           <h1 className="tablet:m-8 text-3xl font-black mx-5 pr-4 bg-clip-text text-transparent bg-gradient-to-r from-violet-500 to-pink-500">
             About.
           </h1>
-          <p className="tablet:m-10 mt-2  p-4 text-xl laptop:text-3xl w-full laptop:w-4/5 rounded-md shadow-md text-justify opacity-80 bg-gradient-to-r from-slate-500 to-slate-400">
+          <p className="tablet:m-10 mt-2 p-4 text-xl laptop:text-3xl w-full laptop:w-4/5 rounded-md shadow-md text-justify opacity-90">
             {data.aboutpara}
           </p>
         </div>
@@ -133,7 +133,7 @@ export default function Home() {
           <h1 className="tablet:m-8 text-3xl font-black mx-5 pr-4 bg-clip-text text-transparent bg-gradient-to-r from-violet-500 to-pink-500">
             Services.
           </h1>
-          <div className="mt-5 tablet:m-80 grid grid-cols-1 laptop:grid-cols-2 gap-6">
+          <div className="w-full mt-5 grid grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-2 gap-6">
             {data.services.map((service, index) => (
               <ServiceCard
                 key={index}
