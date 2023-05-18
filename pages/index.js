@@ -133,7 +133,7 @@ export default function Home() {
           <h1 className="tablet:m-8 text-3xl font-black mx-5 pr-4 bg-clip-text text-transparent bg-gradient-to-r from-violet-500 to-pink-500">
             Services.
           </h1>
-          <div className="mt-5 tablet:m-10 grid grid-cols-1 laptop:grid-cols-2 gap-6">
+          <div className="mt-5 tablet:m-80 grid grid-cols-1 laptop:grid-cols-2 gap-6">
             {data.services.map((service, index) => (
               <ServiceCard
                 key={index}
