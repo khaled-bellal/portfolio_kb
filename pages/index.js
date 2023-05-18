@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/jsx-no-undef */
 import { useRef } from "react";
 import Header from "../components/Header";
@@ -71,7 +72,7 @@ export default function Home() {
               <img
                 src="/images/my/khaled.jpg"
                 alt="my photo"
-                className="h-[345px] w-[63%] h-fit laptop:w-[28%] object-cover transition-all ease-out duration-300 hover:scale-[1.01] relative bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-px"
+                className=" w-[63%] h-fit laptop:w-[28%] object-cover transition-all ease-out duration-300 hover:scale-[1.01] relative bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-px"
               />
             </div>
             <div className="smob:text-center mob:text-center laptop:text-left laptpo:mr-96 laptop:absolute laptop:items-center tablet:items-center mt-6 laptop:ml-10 tablet:ml-10">

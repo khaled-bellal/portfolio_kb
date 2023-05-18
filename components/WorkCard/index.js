@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
 import React, { useState } from "react";
 
 const WorkCard = ({ img, name, description, onClick, githubUrl }) => {
@@ -23,13 +24,16 @@ const WorkCard = ({ img, name, description, onClick, githubUrl }) => {
         onMouseLeave={handleMouseLeave}
         style={{ height: "500px" }}
       >
-        <img alt={name} className="h-full w-full object-cover" src={img} />
+        <Image
+          alt={name}
+          className="h-full w-full object-cover"
+          src={`${img}`}
+          width={700}
+          height={480}
+        />
         {isHovered && (
           <div className="absolute inset-0 bg-opacity-75 bg-black flex items-center justify-center">
-            <button
-              onClick={handleVisitClick}
-              className="transition-all duration-300 ease-out bg-slate-600 hover:bg-gradient-to-r from-slate-800 via-slate-900 to-slate-[#0d0e137a] text-white opacity-80 hover:scale-105 font-bold py-2 px-4 rounded"
-            >
+            <button className="transition-all duration-300 ease-out bg-slate-600 hover:bg-gradient-to-r from-slate-800 via-slate-900 to-slate-[#0d0e137a] text-white opacity-80 hover:scale-105 font-bold py-2 px-4 rounded">
               Visit
             </button>
           </div>
