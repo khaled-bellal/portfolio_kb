@@ -65,31 +65,31 @@ export default function Home() {
           handleWorkScroll={handleWorkScroll}
           handleAboutScroll={handleAboutScroll}
         />
-        <div className="laptop:mt-42 mt-10">
-          <div className="h-[100%] flex mob:flex-col laptop:flex-row mt-[50px]">
-            <div className=" relative mob:flex laptop:flex mob:justify-center laptop:justify-end laptop:mr-[70px] laptop:mb-[55px]">
+        <div className="flex justify-center smob:flex smob:justify-center laptop:items-center tablet:items-center">
+          <div className="h-[100%] flex flex-col mob:flex-col laptop:flex-row mt-[50px]">
+            <div className=" relative smob:flex smob:justify-center mob:flex mob:justify-center laptop:flex laptop:justify-end laptop:mr-[70px] laptop:mb-[55px]">
               <img
                 src="/images/my/khaled.jpg"
                 alt="my photo"
                 className="h-[345px] w-[63%] h-fit laptop:w-[28%] object-cover transition-all ease-out duration-300 hover:scale-[1.01] relative bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-px"
               />
             </div>
-            <div className="mob:text-center laptop:text-left laptpo:mr-96 laptop:absolute mt-6">
+            <div className="smob:text-center mob:text-center laptop:text-left laptpo:mr-96 laptop:absolute laptop:items-center tablet:items-center mt-6 laptop:ml-10 tablet:ml-10">
               <h1
                 ref={textOne}
-                className="text-2xl tablet:text-6xl laptopl:text-6xl p-1 tablet:p-2 text-bold w-4/5 mob:w-full laptop:w-4/5"
+                className="text-2xl tablet:text-6xl laptopl:text-6xl p-1 tablet:p-2 text-bold smob:w-full mob:w-full laptop:w-4/5"
               >
                 {data.headerTaglineOne}
               </h1>
               <h1
                 ref={textTwo}
-                className="text-2xl tablet:text-7xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5 font-bold bg-clip-text text-transparent bg-gradient-to-r from-violet-500 to-pink-500"
+                className="text-2xl tablet:text-6xl laptopl:text-7xl p-1 tablet:p-2 text-bold w-full font-bold bg-clip-text text-transparent bg-gradient-to-r from-violet-500 to-pink-500"
               >
                 {data.headerTaglineTwo}
               </h1>
               <h1
                 ref={textThree}
-                className="text-2xl tablet:text-7xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5 bg-clip-text text-transparent bg-gradient-to-r from-violet-500 to-pink-500"
+                className="text-2xl tablet:text-6xl laptopl:text-7xl p-1 tablet:p-2 text-bold w-full bg-clip-text text-transparent bg-gradient-to-r from-violet-500 to-pink-500"
               >
                 {data.headerTaglineThree}
               </h1>
@@ -104,18 +104,17 @@ export default function Home() {
         </div>
         <Socials className="mt-2 laptop:mr-[70%] laptop:mt-6" />
         <div className="mt-10 laptop:mt-16 p-2 laptop:p-0" ref={aboutRef}>
-          <h1 className="tablet:m-8 text-3xl font-black mx-6 pr-4 bg-clip-text text-transparent bg-gradient-to-r from-violet-500 to-pink-500">
+          <h1 className="tablet:m-8 text-3xl font-black mx-5 pr-4 bg-clip-text text-transparent bg-gradient-to-r from-violet-500 to-pink-500">
             About.
           </h1>
-          <p className="tablet:m-10 mt-2  p-4 text-xl laptop:text-3xl w-full laptop:w-4/5 rounded-md shadow-md text-justify opacity-70 bg-gradient-to-r from-slate-[#0d0e137a] via-slate-900 to-slate-[#0d0e137a]">
+          <p className="tablet:m-10 mt-2  p-4 text-xl laptop:text-3xl w-full laptop:w-4/5 rounded-md shadow-md text-justify opacity-80 bg-gradient-to-r from-slate-500 to-slate-400">
             {data.aboutpara}
           </p>
         </div>
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={workRef}>
-          <h1 className="tablet:m-8 text-3xl font-black mx-6 pr-4 bg-clip-text text-transparent bg-gradient-to-r from-violet-500 to-pink-500">
+          <h1 className="tablet:m-8 text-3xl font-black mx-5 pr-4 bg-clip-text text-transparent bg-gradient-to-r from-violet-500 to-pink-500">
             Work.
           </h1>
-
           <div className="mt-5 laptop:mt-10 mx-6 grid grid-cols-1 tablet:grid-cols-2 gap-4">
             {data.projects.map((project) => (
               <WorkCard
@@ -131,7 +130,9 @@ export default function Home() {
         </div>
 
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0">
-          <h1 className="tablet:m-10 text-2xl text-bold">Services.</h1>
+          <h1 className="tablet:m-8 text-3xl font-black mx-5 pr-4 bg-clip-text text-transparent bg-gradient-to-r from-violet-500 to-pink-500">
+            Services.
+          </h1>
           <div className="mt-5 tablet:m-10 grid grid-cols-1 laptop:grid-cols-2 gap-6">
             {data.services.map((service, index) => (
               <ServiceCard

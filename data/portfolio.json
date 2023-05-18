@@ -1,1 +1,107 @@
-{"name":"KB","headerTaglineOne":"Hello 👋","headerTaglineTwo":"I'm Khaled Bellal","headerTaglineThree":"Front-End Developer","headerTaglineFour":" based in Dubai, UAE.","showCursor":true,"showBlog":false,"darkMode":true,"showResume":true,"projects":[{"id":"1","title":"Cyborg","description":"Website","imageSrc":"/images/project/cyborgGames.png","url":"https://vermillion-tartufo-ed3a42.netlify.app","githubUrl":"https://github.com/khaled-bellal/cyborg"},{"id":"2","title":"LEADERSHIP EVENT","description":"Web Development","imageSrc":"/images/project/leadershipEvent.png","url":"https://lucent-kangaroo-fb3e3e.netlify.app","githubUrl":"https://github.com/khaled-bellal/leadership_event"}],"services":[{"id":"1","title":"Web Development","description":"I specialize in developing modern, responsive websites using the latest web technologies such as HTML5, CSS3, and JavaScript. Whether you need a simple website or a complex web application, I can help you bring your vision to life."},{"id":"2","title":"User Interface Design","description":"I have a keen eye for design and enjoy creating visually stunning user interfaces that are both intuitive and easy to use. From wireframes to final designs, I can help you create a user interface that enhances your brand and meets the needs of your users."},{"id":"3","title":"Front-End Development","description":"With expertise in various front-end framework like React, I can build highly interactive and responsive websites and web applications. I work closely with back-end developers to ensure that the client-side of your project integrates seamlessly with the back-end services."},{"id":"4","title":"3D Design","description":"We combine creative design and technical skills to build striking 3D visualisations that bring your project to life."},{"id":"5","title":"Responsive Web Design","description":"Specialize in creating responsive websites that adapt seamlessly to different screen sizes and devices. This service ensures that websites look and function well on desktops, tablets, and smartphones."},{"id":"6","title":"Website Maintenance and Support","description":"Provide ongoing maintenance and support for websites, including updating content, fixing bugs, and ensuring security. Offer service packages that cater to clients' needs for long-term suppor"},{"id":"7","title":"Code Reviews and Quality Assurance","description":"Offer code review services to clients who want an expert opinion on the quality and efficiency of their front-end code. Provide feedback, suggest improvements, and ensure adherence to coding standards and best practices."},{"id":"8","title":"Consultation and Expert Advice","description":"Offer consultation services to clients who require guidance on front-end development best practices, UI/UX design, responsive design, or other related areas."}],"aboutpara":"I am a highly skilled and experienced Front End Developer with over 3 years of experience in creating user-friendly and responsive websites. I am proficient in HTML, CSS, JavaScript, and various front-end frameworks such as ReactJS and AngularJS. With a deep understanding of web development best practices, I am able to create websites that are not only aesthetically pleasing but also optimized for search engines and accessibility. I have a proven track record of successfully delivering projects on time and within budget, collaborating effectively with team members, and using agile methodologies to achieve project goals. As a Front End Developer, I am passionate about staying up-to-date with the latest technologies and trends in the industry, and I am always seeking new challenges to expand my skills and knowledge.","resume":{"tagline":"👋  I'm a front-end developer.","description":"I have delivered world-class user experiences to much of people. Well-versed with React, Javascript, and most of the Web frameworks.","experiences":[{"id":"1","dates":"Apr 2022 - Dec 2022","type":"Part time","position":"Frontend Engineer at Web3 Pros","bullets":"Worked with the design team to create website layouts and designs, Developed websites using ReactJS framework, Implemented SEO best practices to improve website visibility, Built custom WordPress themes using PHP / HTML / CSS and JavaScript, Used Jira for project management and issue tracking, Conducted code reviews and provided feedback to team members, Maintained and updated existing websites, Collaborated with back-end developers to integrate front-end code with the back-end system."},{"id":"2","dates":"Mar 2020 - Jun 2021","type":"Part time","position":"React Developer at SupportYourApp","bullets":"Designed and developed user-friendly websites using HTML, CSS, and JavaScript, Developed responsive layouts using Bootstrap and Materialize frameworks, Utilized jQuery to create dynamic and interactive web pages, Collaborated with the UX team to create wireframes and mockups, Implemented SEO best practices to improve website visibility, Used Git for version control and code collaboration, Communicated with project managers and other team members to ensure timely delivery."},{"id":"3","dates":"Feb 2019 - Dec 2020","type":"Freelance","position":"UI/UX Designer at Upwork","bullets":"Conducting user research to understand user needs, behaviors, and preferences, Developing wireframes and prototypes to visualize design concepts and test usability,Creating high-fidelity mockups and designs for web and mobile applications, Collaborating with cross-functional teams, including product managers, developers, and marketers, to ensure design consistency and usability, Conducting user testing and incorporating feedback to refine designs and improve the user experience, Staying up-to-date with industry trends and best practices in UI/UX design."}],"education":{"universityName":"ESE at University of Sciences and Technologies Houari Boumediène","universityDate":"2016 - 2021","universityPara":"Object-Oriented Programming (OOP), RCI, x86 Assembly, C++, Real-time Control Systems, Robotics, Visual Studio, Java"},"languages":["JavaScript","HTML5","CSS3","Tailwindcss","Bootstrap 5"],"frameworks":["React","Typescript"],"others":["Figma","AdobeXD","Photoshop"]}}
+{
+  "name": "KB",
+  "headerTaglineOne": "Hello 👋",
+  "headerTaglineTwo": "I'm Khaled Bellal",
+  "headerTaglineThree": "Front-End Developer",
+  "headerTaglineFour": " based in Dubai, UAE.",
+  "showCursor": true,
+  "showBlog": false,
+  "darkMode": true,
+  "showResume": true,
+  "projects": [
+    {
+      "id": "1",
+      "title": "Cyborg",
+      "description": "Website",
+      "imageSrc": "/images/project/cyborgGames.png",
+      "url": "https://vermillion-tartufo-ed3a42.netlify.app",
+      "githubUrl": "https://github.com/khaled-bellal/cyborg"
+    },
+    {
+      "id": "2",
+      "title": "LEADERSHIP EVENT",
+      "description": "Web Development",
+      "imageSrc": "/images/project/leadershipEvent.png",
+      "url": "https://lucent-kangaroo-fb3e3e.netlify.app",
+      "githubUrl": "https://github.com/khaled-bellal/leadership_event"
+    }
+  ],
+  "services": [
+    {
+      "id": "1",
+      "title": "Web Development",
+      "description": "I specialize in developing modern, responsive websites using the latest web technologies such as HTML5, CSS3, and JavaScript. Whether you need a simple website or a complex web application, I can help you bring your vision to life."
+    },
+    {
+      "id": "2",
+      "title": "User Interface Design",
+      "description": "I have a keen eye for design and enjoy creating visually stunning user interfaces that are both intuitive and easy to use. From wireframes to final designs, I can help you create a user interface that enhances your brand and meets the needs of your users."
+    },
+    {
+      "id": "3",
+      "title": "Front-End Development",
+      "description": "With expertise in various front-end framework like React, I can build highly interactive and responsive websites and web applications. I work closely with back-end developers to ensure that the client-side of your project integrates seamlessly with the back-end services."
+    },
+    {
+      "id": "4",
+      "title": "3D Design",
+      "description": "We combine creative design and technical skills to build striking 3D visualisations that bring your project to life."
+    },
+    {
+      "id": "5",
+      "title": "Responsive Web Design",
+      "description": "Specialize in creating responsive websites that adapt seamlessly to different screen sizes and devices. This service ensures that websites look and function well on desktops, tablets, and smartphones."
+    },
+    {
+      "id": "6",
+      "title": "Website Maintenance and Support",
+      "description": "Provide ongoing maintenance and support for websites, including updating content, fixing bugs, and ensuring security. Offer service packages that cater to clients' needs for long-term suppor"
+    },
+    {
+      "id": "7",
+      "title": "Code Reviews and Quality Assurance",
+      "description": "Offer code review services to clients who want an expert opinion on the quality and efficiency of their front-end code. Provide feedback, suggest improvements, and ensure adherence to coding standards and best practices."
+    },
+    {
+      "id": "8",
+      "title": "Consultation and Expert Advice",
+      "description": "Offer consultation services to clients who require guidance on front-end development best practices, UI/UX design, responsive design, or other related areas."
+    }
+  ],
+  "aboutpara": "I am a highly skilled and experienced Front End Developer with over 3 years of experience in creating user-friendly and responsive websites. I am proficient in HTML, CSS, JavaScript, and various front-end frameworks such as ReactJS and AngularJS. With a deep understanding of web development best practices, I am able to create websites that are not only aesthetically pleasing but also optimized for search engines and accessibility. I have a proven track record of successfully delivering projects on time and within budget, collaborating effectively with team members, and using agile methodologies to achieve project goals. As a Front End Developer, I am passionate about staying up-to-date with the latest technologies and trends in the industry, and I am always seeking new challenges to expand my skills and knowledge.",
+  "resume": {
+    "tagline": "👋  I'm a front-end developer.",
+    "description": "I have delivered world-class user experiences to much of people. Well-versed with React, Javascript, and most of the Web frameworks.",
+    "experiences": [
+      {
+        "id": "1",
+        "dates": "Apr 2022 - Dec 2022",
+        "type": "Part time",
+        "position": "Frontend Engineer at Web3 Pros",
+        "bullets": "Worked with the design team to create website layouts and designs, Developed websites using ReactJS framework, Implemented SEO best practices to improve website visibility, Built custom WordPress themes using PHP / HTML / CSS and JavaScript, Used Jira for project management and issue tracking, Conducted code reviews and provided feedback to team members, Maintained and updated existing websites, Collaborated with back-end developers to integrate front-end code with the back-end system."
+      },
+      {
+        "id": "2",
+        "dates": "Mar 2020 - Jun 2021",
+        "type": "Part time",
+        "position": "React Developer at SupportYourApp",
+        "bullets": "Designed and developed user-friendly websites using HTML, CSS, and JavaScript, Developed responsive layouts using Bootstrap and Materialize frameworks, Utilized jQuery to create dynamic and interactive web pages, Collaborated with the UX team to create wireframes and mockups, Implemented SEO best practices to improve website visibility, Used Git for version control and code collaboration, Communicated with project managers and other team members to ensure timely delivery."
+      },
+      {
+        "id": "3",
+        "dates": "Feb 2019 - Dec 2020",
+        "type": "Freelance",
+        "position": "UI/UX Designer at Upwork",
+        "bullets": "Conducting user research to understand user needs, behaviors, and preferences, Developing wireframes and prototypes to visualize design concepts and test usability,Creating high-fidelity mockups and designs for web and mobile applications, Collaborating with cross-functional teams, including product managers, developers, and marketers, to ensure design consistency and usability, Conducting user testing and incorporating feedback to refine designs and improve the user experience, Staying up-to-date with industry trends and best practices in UI/UX design."
+      }
+    ],
+    "education": {
+      "universityName": "ESE at University of Sciences and Technologies Houari Boumediène",
+      "universityDate": "2016 - 2021",
+      "universityPara": "Object-Oriented Programming (OOP), RCI, x86 Assembly, C++, Real-time Control Systems, Robotics, Visual Studio, Java"
+    },
+    "languages": ["JavaScript", "HTML5", "CSS3", "Tailwindcss", "Bootstrap 5"],
+    "frameworks": ["React", "Typescript"],
+    "others": ["Figma", "AdobeXD", "Photoshop"]
+  }
+}

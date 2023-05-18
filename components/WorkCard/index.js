@@ -42,12 +42,14 @@ const WorkCard = ({ img, name, description, onClick, githubUrl }) => {
         {description ? description : "Description"}
       </h2>
       {githubUrl && (
-        <button
-          onClick={handleVisitClick}
-          className="mt-4 inline-block transition-all duration-300 ease-out bg-gradient-to-r from-violet-500 to-pink-500 text-white hover:scale-105 font-bold py-2 px-4 rounded"
-        >
-          Visit Code
-        </button>
+        <div className="mob:flex mob:justify-center smob:flex smob:justify-center laptop:flex laptop:justify-start">
+          <button
+            onClick={handleVisitClick}
+            className="mt-4 inline-block transition-all duration-300 ease-out bg-gradient-to-r from-violet-500 to-pink-500 text-white hover:scale-105 font-bold py-2 px-4 rounded"
+          >
+            Visit Code
+          </button>
+        </div>
       )}
     </div>
   );

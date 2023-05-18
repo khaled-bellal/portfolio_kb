@@ -43,12 +43,14 @@ const socialIcons = [
 
 const Socials = ({ className }) => {
   return (
-    <div className={`${className} flex flex-wrap mob:flex-nowrap link `}>
+    <div
+      className={`${className} flex flex-wrap mob:flex-nowrap smob:flex-nowrap link `}
+    >
       {socialIcons.map((social) => (
         <button
           key={social.id}
           onClick={() => window.open(social.link)}
-          className="mr-4 relative mx-auto h-10 w-10 rounded-full hover:text-gray-900  hover:bg-gradient-to-br from-purple-500 to-blue-400 hover:scale-105 md:hover:opacity-100 grid place-content-center border-[1.5px] border-current p-2"
+          className="laptop:mr-4 tablet:mr-5 relative mx-auto h-10 w-10 rounded-full hover:text-gray-900  hover:bg-gradient-to-br from-purple-500 to-blue-400 hover:scale-105 md:hover:opacity-100 grid place-content-center border-[1.5px] border-current p-2"
         >
           <social.icon />
         </button>
