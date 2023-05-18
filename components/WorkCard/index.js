@@ -16,7 +16,7 @@ const WorkCard = ({ img, name, description, onClick, githubUrl }) => {
     setIsHovered(false);
   };
   return (
-    <div className="overflow-hidden rounded-lg p-2 laptop:p-4 first:ml-0 link hover:opacity-80 bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900 hover:scale-[1.01] transition-all ease-out duration-300">
+    <div className="overflow-hidden rounded-lg p-2 laptop:p-4 first:ml-0 link hover:opacity-80 bg-gradient-to-r from-slate-500 via-slate-800 to-slate-500 hover:scale-[1.01] transition-all ease-out duration-300">
       <div
         className="relative rounded-lg overflow-hidden transition-all ease-out duration-300 h-48 mob:h-auto"
         onClick={onClick}
@@ -27,7 +27,7 @@ const WorkCard = ({ img, name, description, onClick, githubUrl }) => {
         <Image
           alt={name}
           className="h-full w-full object-cover"
-          src={`${img}`}
+          src={img}
           width={700}
           height={480}
         />

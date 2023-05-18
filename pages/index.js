@@ -1,5 +1,4 @@
 /* eslint-disable @next/next/no-img-element */
-/* eslint-disable react/jsx-no-undef */
 import { useRef } from "react";
 import Header from "../components/Header";
 import ServiceCard from "../components/ServiceCard";
@@ -9,10 +8,7 @@ import { useIsomorphicLayoutEffect } from "../utils";
 import { stagger } from "../animations";
 import Footer from "../components/Footer";
 import Head from "next/head";
-import Button from "../components/Button";
-import Link from "next/link";
 import Cursor from "../components/Cursor";
-import Image from "next/image";
 
 // Local Data
 import data from "../data/portfolio.json";
@@ -51,6 +47,13 @@ export default function Home() {
     );
   }, []);
 
+  const newLocal = (
+    <img
+      src="/images/my/khaled.jpg"
+      alt="my photo"
+      className=" w-[63%] h-fit laptop:w-[28%] object-cover transition-all ease-out duration-300 hover:scale-[1.01] relative bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-px"
+    />
+  );
   return (
     <div className={`relative ${data.showCursor && "cursor-none"}`}>
       {data.showCursor && <Cursor />}
@@ -69,11 +72,7 @@ export default function Home() {
         <div className="flex justify-center smob:flex smob:justify-center laptop:items-center tablet:items-center">
           <div className="h-[100%] flex flex-col mob:flex-col laptop:flex-row mt-[50px]">
             <div className=" relative smob:flex smob:justify-center mob:flex mob:justify-center laptop:flex laptop:justify-end laptop:mr-[70px] laptop:mb-[55px]">
-              <img
-                src="/images/my/khaled.jpg"
-                alt="my photo"
-                className=" w-[63%] h-fit laptop:w-[28%] object-cover transition-all ease-out duration-300 hover:scale-[1.01] relative bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-px"
-              />
+              {newLocal}
             </div>
             <div className="smob:text-center mob:text-center laptop:text-left laptpo:mr-96 laptop:absolute laptop:items-center tablet:items-center mt-6 laptop:ml-10 tablet:ml-10">
               <h1
