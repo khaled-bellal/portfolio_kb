@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 ### Features -
 
-- Modern Stack (Next.js + TailwindCSS)
+- Modern Stack (Next.js +  TailwindCSS)
 - Minimal Design
 - Easy To Browse
 - Easy To Customize your details With GUI
