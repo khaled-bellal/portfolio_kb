@@ -89,7 +89,7 @@ export default function Home() {
               </h1>
               <h1
                 ref={textThree}
-                className="text-2xl tablet:text-6xl laptopl:text-7xl p-1 tablet:p-2 text-bold w-full bg-clip-text text-transparent bg-gradient-to-r from-violet-500 to-pink-500"
+                className="text-2xl tablet:text-6xl laptopl:text-7xl p-1 tablet:p-2 text-bold w-full font-bold bg-clip-text text-transparent bg-gradient-to-r from-violet-500 to-pink-500"
               >
                 {data.headerTaglineThree}
               </h1>
